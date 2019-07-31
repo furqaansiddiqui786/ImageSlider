@@ -1,0 +1,55 @@
+body{
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom, aqua, beige);
+
+}
+.jumbotron{
+    padding: 0;
+    margin: 0;
+}
+.col-xs-12 img{
+    width: 100%;
+}
+.navy{
+    background-color: rgb(17, 22, 37);
+    padding: 20px;
+}
+.itembox{
+    list-style: none;
+}
+.items{
+    display: inline;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.hometext{
+    text-align: center;
+}
+.hero{
+    color: red;
+    font-size: 50px
+}
+.down{
+    text-decoration: none;
+    color: black;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    padding: 2px;
+}
+.dwnd{
+    text-align: center;
+}
+hr{
+    border: 1px solid black;
+}
+.foot{
+    padding: 20px;
+    background-color:rgb(17,22,37);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}

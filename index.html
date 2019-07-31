@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+       <link rel="stylesheet" href="styles/twentytwenty.css">
+        <link rel="stylesheet" href="styles/custom.css">
+        <title>Sliing images</title>
+</head>
+
+
+<body>
+    <div class="navy" id="home">
+        <ul class="itembox">
+            <li class = items><a href = "#home">Home</a></li>
+            <li class = items><a href = "#effect">Effect</a></li>
+            <li class = items><a href = "#documents">Documentation</a></li>
+            <li class = items><a href = "#download">Download</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1 class="hometext">This is the <span class="hero">Twenty-Twenty</span> Effect below</h1>
+        <div class="jumbotron text-center">
+            <div class="row">
+                <div class="col-xs-12 twentytwenty-container" id="effect">
+                    <img src="assets/adorable-beautiful-boy-35537.jpg" alt="before">
+                    <img src="assets/cowboy-cowboy-hat-elderly-1152705 (1).jpg" alt="after">
+                </div>
+            </div>
+        </div>
+<hr>
+        <div>
+        <h2 id="documents">How does this works?</h2>
+        <h4>To use this effect in your website, you must download the twenty-twenty library for javascript from the given download link below and follow the steps</h4>
+        <ul>
+            <li>First download the twentytwenty js library from here
+                     <a class="down" href="#download">
+                         <b>Download</b>
+                    </a>
+            </li>
+            <li>Now Extract all the files</li>
+            <li>From the extracted file copy these required files into your website
+                <ol>
+                    <li>from the css folder copy twentytwenty.css</li>
+                    <li>from js folder copy jquery.twentytwenty and jquery.event.move</li>
+                </ol>
+            </li>
+            <li>Now that we have all the files in our website</li>
+            <li>link our css in the head tag and scripts in body tags at the end</li>
+        </ul>
+        <h3>Now that we have all the required files and linked up to our html file</h3>
+        <h4>now we can design our image slider and add some styles and properties</h4>
+        <ul>
+            <li>Create a div.container</li>
+            <li>In the container create a div.jumbotron</li>
+            <li>In our jumbotron create a row and a single column of col-xs-12</li>
+            <li>We apply <b>twentytwenty-container</b></li>
+            <li>In this column we add two images for before and after effect</li>
+        </ul>
+        <h4>In CUstom Style part we can give the col-xs-12 width of 100%</h4>
+        <h4>In our Custom written js file we can write</h4>
+        <blockquote>$(window).load(function() { <br>
+                $(".col-xs-12").twentytwenty(); <br>
+              });</blockquote>
+        <h5>In the above function we target the column and apply the twenty-twenty effect to it</h5>
+    </div>
+    <h4>Thus the above steps shows how we can apply this effect in our websites</h4>
+<hr>
+    <div class="dwnd"> 
+        <h2>You can download the TwentyTwenty library from below</h2> <br>
+        <a id="download" class="btn btn-success btn-lg" href="https://www.zurb.com/playground/twentytwenty">Download</a>
+    </div>
+
+    <hr>
+
+    </div>
+
+<footer class="foot">
+        <p>Designed by furqaan siddiqui | for study</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- twenty twenty scripts -->
+<script src="scripts/jquery.twentytwenty.js"></script>
+<script src="scripts/jquery.event.move.js"></script>
+<script src="scripts/custom.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
